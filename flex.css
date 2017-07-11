@@ -1,0 +1,39 @@
+.flex {
+  display: flex;
+}
+
+.flex-jus-center {
+  justify-content: center;
+}
+
+.flex-jus-space-between{
+	justify-content: space-between;
+}
+
+.flex-dir-row{
+	flex-direction: row;
+}
+
+.flex-dir-clmn{
+	flex-direction: column;
+}
+
+
+.display-inline-flex{
+	display: inline-flex;
+}
+
+.just-cont-cntr{
+	justify-content: center;
+}
+.text-align-cntr {
+	text-align: center;
+}
+
+.align-item-cntr{
+	align-items: center;
+}
+
+.text-decor.none{
+	text-decoration: none;
+}

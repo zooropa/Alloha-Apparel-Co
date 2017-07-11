@@ -1,0 +1,40 @@
+.color-white {
+color: white;
+}
+
+.color-black {
+  color: black;
+}
+
+.color-red {
+  color: red;
+}
+
+.color-grey{
+	color: grey;
+}
+
+.backgnd-col-white{
+	background-color: white;
+}
+
+.backgnd-col-blk{
+	background-color: black;
+}
+
+.backgnd-col-red{
+	background-color: red;
+}
+
+.backgnd-repeat-no{
+	background-repeat: no-repeat;
+}
+
+.backgnd-pos-btm{
+	background-position: bottom;
+}
+
+.text-decor-undrln{
+	text-decoration: underline;
+}
+

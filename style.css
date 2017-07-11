@@ -1,0 +1,253 @@
+/*/*/*font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif;*/
+
+header { 
+  
+}
+
+.logo img { 
+  font-size: 1px;
+  width:-2px;
+  height:65px;
+  padding: 20px;
+}
+            
+.ex {
+}
+
+.item {
+ 
+}
+
+h2 {
+  padding: 25px;
+}
+
+.alohaapp {
+  padding-bottom: 3em;
+}
+
+.current {
+  padding: 15px;
+}
+
+
+.banner-heading {
+  margin: 0;
+  padding: 1em;
+  font-size: 20px
+}
+
+nav {
+           
+}
+
+nav > ul {
+  list-style: none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+}
+
+nav > ul > li{
+  font-family: 'Raleway', sans-serif;
+  font-size:1em;
+  float:right;
+  padding:2em 1em 2em 1em;
+}
+
+nav > ul > li > a{
+  text-decoration: none;
+  color:#000;
+}
+
+nav > ul > li > a:hover,
+nav > ul > li > a:active 
+{
+  color:red ;
+}
+
+li > a > img{
+
+  width:30px;
+  height:30px;
+  margin: -5px 0 0 0;
+
+}
+
+nav a{
+  color:orange;
+  transition: all 5s ease;
+ 
+}
+
+
+.banner {  
+   line-height: 70%;
+   width: 100%;
+   background-image:  linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("Images/banner-girl.png"), url("Images/flower.jpg"); 
+          /*background-size: 20%, 100%;*/
+   height: 400px;
+   background-repeat: no-repeat, no-repeat;
+   background-size: cover, contain;
+   background-position: top, center 2em;
+   font-size: 40px;  
+
+}
+
+.spring {
+
+  padding: 1em;
+  color:black;
+
+}
+
+.font-playfair{
+  
+}
+
+.cta{
+  text-align: center;
+  margin-bottom: 20px; 
+
+}
+.product{
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  background-color: white;
+  text-align: center;
+}
+
+.ProductLineHeight {
+  line-height: 2.5em;
+}
+
+.product2{
+  padding: 0px 0px 2px 0px;
+}
+
+.flex-dir-col {
+  flex-direction: column;
+  margin-bottom: 4px;
+}
+    
+.sign {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("Images/wave.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  
+  height: 400px;
+  font-size: 18px;
+
+}
+
+.stay {
+  padding: 2em;
+  line-height: 150%;
+
+}
+
+.subscribe {
+/*justify-content: center-right;*/
+  background-color: white;
+  padding: 0.4em;
+  border-radius: 1em;
+  width: 20em;
+}
+
+.sign > h2{
+  padding-bottom: 0px;
+  padding-top: 70px;
+  font-size: 45px;
+  
+}
+.signup {
+   padding-top: : 1em;
+
+}
+
+.email {
+  border: none;
+  flex-grow: 2;
+  padding: 0 2em;
+  color: grey;
+  margin-right: 3em;
+
+}
+.subscribe .button {
+  color:white;
+  background-color: red;
+  border: none;
+  border-radius:20em;
+  padding: 0.5em;
+  width:8em;
+  height:fit;
+
+
+}
+
+footer{
+   background-color: black;
+   padding: 2em 1em;
+}
+
+
+.contact {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding:0 2em;
+}
+
+.phone 
+{
+  padding: 30px 0px 30px 0px;
+
+}
+
+.info{
+  text-decoration: underline;
+}
+
+.address {
+  color: grey;
+}
+
+.sm{
+ display: flex;
+ text-decoration: none;
+ color:white;
+  /*padding-top:1.5em;*/
+}
+
+.flex{
+  display:flex;
+}
+
+.icon {
+  width: 30%;
+}
+
+.fa{
+  color: white;
+}
+
+.social {
+
+     width:10rem;
+}
+
+.facebook,.twitter, .instagram, .pinterest, .googleplus {
+  padding: 5px 0px 5px 0px;
+}
+
