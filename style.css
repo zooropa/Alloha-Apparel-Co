@@ -8,7 +8,7 @@ header {
 .logo img { 
   font-size: 1px;
   width:-2px;
-  height:65px;
+  height:35px;
   padding: 20px;
 }
             
@@ -39,6 +39,9 @@ h2 {
 }
 
 nav {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
            
 }
 
@@ -115,7 +118,7 @@ nav a{
 
   display: flex;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap:nowrap;
   background-color: white;
   text-align: center;
@@ -136,40 +139,41 @@ nav a{
     
 .sign {
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url("Images/wave.jpg");
+  background-image:  url("Images/wave.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
   text-align: center;
   color: white;
   
-  height: 400px;
+  height: 250px;
   font-size: 18px;
 
 }
 
 .stay {
-  padding: 2em;
+  padding: 1em;
   line-height: 150%;
+  font-size: 0.7em;
 
 }
 
 .subscribe {
 /*justify-content: center-right;*/
   background-color: white;
-  padding: 0.4em;
-  border-radius: 1em;
-  width: 20em;
+  padding: 0.2em;
+  border-radius: 0.5em;
+  width: 14em;
 }
 
 .sign > h2{
-  padding-bottom: 0px;
-  padding-top: 70px;
-  font-size: 45px;
+  padding-bottom: 10px;
+  padding-top: 50px;
+  font-size: 25px;
   
 }
 .signup {
-   padding-top: : 1em;
+   padding-top: : 70px;
 
 }
 
@@ -178,7 +182,7 @@ nav a{
   flex-grow: 2;
   padding: 0 2em;
   color: grey;
-  margin-right: 3em;
+  margin-right: -6em;
 
 }
 .subscribe .button {
@@ -207,6 +211,8 @@ footer{
   background-color: black;
   color: white;
   padding:0 2em;
+  text-align: center;
+  font-size: 12px;
 }
 
 .phone 
