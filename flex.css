@@ -37,3 +37,7 @@
 .text-decor.none{
 	text-decoration: none;
 }
+
+.flex-wrap{
+	flex-wrap: wrap;
+}

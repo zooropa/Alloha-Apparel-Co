@@ -1,10 +1,7 @@
-
-var p1=0;
+var addCart=document
 
 function addCart() {
 p1++;
 document.getElementById("cart").innerHTML=p1;
 
 }
-
-
